@@ -1,0 +1,108 @@
+/*common to all pages*/
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+/*Nav bar*/
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins',sans-serif;
+    background-color: brown;
+}
+
+.logo{
+    color: rgb(222, 222, 222);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.subheading{
+    color:rgb(222, 222, 222);
+    font-size:12px;
+}
+
+.nav-links{
+    display:flex;
+    justify-content: space-around;
+    width: 60%;
+    padding-top:25px;
+}
+.nav-links li{
+    list-style:none;
+}
+
+.nav-links a{ 
+    color: rgb(222, 222, 222);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header {
+    background: var(--clr-light);
+    padding: 2em 0;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+/* Button */
+.blogbutton{
+    background-color: rgb(222, 222, 222);
+    text-decoration: none;
+    border: 0;
+    cursor: pointer;
+    justify-self: start;
+}
+
+/*Footer*/
+.FooterContainer{
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr,1fr;
+    background-color: brown;
+    left: 0;
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+    width: 100%;
+    color: rgb(222, 222, 222);
+    position:  fixed;
+    grid-area: "ft";
+    font-family: 'Poppins',sans-serif;
+
+  }
+.FooterContainer > .Follow{
+    grid-column: 1/2;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;    
+}
+.FooterContainer > .Facebook{
+    grid-column: 2/3;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    }
+.FooterContainer > .Linkedin{
+    grid-column: 3/4;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+
+  }
+.FooterContainer > .Twitter{
+    grid-column: 4/5;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}

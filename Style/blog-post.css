@@ -1,0 +1,75 @@
+
+/*CSS Unique to blog post*/
+.containerblog {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 180px 180px 180px 180px 120px;
+    gap: 20px;
+    border: thin solid black;
+    font-family: 'Poppins',sans-serif;
+    font-size: 11px;
+    background-color: rgb(219, 212, 212);
+}
+
+.feature{
+    border:thin solid black;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-color: rgb(222, 222, 222);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left:5px;
+    margin-right:5px;
+    font-size: large;
+    box-shadow: 1px 1px 1px grey;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-top: 20px;
+}
+
+.previousposts{
+    border:thin solid black;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: rgb(222, 222, 222);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left:5px;
+    margin-right:5px;
+    font-size: large;
+    box-shadow: 1px 1px 1px grey;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.card1{
+    border:thin solid black;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        background-color: rgb(222, 222, 222);
+        text-align:center;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-left:5px;
+        box-shadow: 1px 1px 1px grey;
+        font-size: 11px;     
+}
+.text{
+    padding-top: 15px;
+}
+
+.sofa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20;
+
+  }

@@ -1,0 +1,109 @@
+/*CSS Specific to the HOME page*/
+
+/* Content */
+.containerhome {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 180px 180px 180px 180px 120px;
+    gap: 20px;
+    border: thin solid black;
+    font-family: 'Poppins',sans-serif;
+    font-size: 11px;
+    background-color: rgb(219, 212, 212);
+}
+
+.card{
+    border:thin solid black;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgb(222, 222, 222);
+    text-align:center;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left:5px;
+    padding-top:5px;
+    box-shadow: 1px 1px 1px grey;
+    font-size: 11px;
+}
+    
+.picture{
+    height:200px;
+    margin-top:5px;
+    margin-bottom: 20px;
+    background-color: rgb(222, 222, 222);
+    border-radius: 50%;
+}
+    
+
+/*Featured Post*/
+.featured{
+    display:flex;
+    flex-direction: row;
+    border:thin solid black;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgb(222, 222, 222);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left:5px;
+    margin-right:5px;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px grey;
+    padding-left: 10px;
+    padding-right:50px;
+    padding-top: 20px;
+    }
+
+.featuretext{
+    padding: 10px;
+    
+}
+
+.diogenes{
+    text-align: center;
+    height: 250px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+    
+.previous{
+    display:flex;
+    border:thin solid black;
+    background-color: rgb(222, 222, 222);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left:5px;
+    margin-right:5px;
+    box-shadow: 1px 1px 1px grey;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 20px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.p1{
+    padding: 10px;
+}
+.p2{
+    padding: 10px;
+}
+.p3{
+    padding: 10px;
+}
+.footer{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end:4;
+    text-align: center;
+        
+}
+    
